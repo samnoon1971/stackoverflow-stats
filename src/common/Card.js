@@ -56,7 +56,7 @@ class Card {
 
   render(body) {
     return `
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="${this.getWidth()}" height="${this.getHeight()}" viewBox="${`0 0 ${this.getWidth()} ${this.getHeight()}`}">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="${this.getWidth()}" border="1px solid black" height="${this.getHeight()}" viewBox="${`0 0 ${this.getWidth()} ${this.getHeight()}`}">
         <style>
           ${this.css}
           ${getAnimations()}
