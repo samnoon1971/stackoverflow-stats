@@ -41,11 +41,9 @@ Easy to use! <kbd>Ctrl + C</kbd> + <kbd>Ctrl + V</kbd> to paste into your readme
 2. Change the `?user=` value to your Stack Overflow user id.
 
 ```md
-[![My Stack Overflow Stats](https://so-stats.vercel.app/api?user=10389571)](https://github.com/kurt-liao/so-stats)
-```
+[![My Stack Overflow Stats](https://stackoverflow-stats-one.vercel.app/api?user=8188682)](https://github.com/samnoon1971/stackoverflow-stats)```
 
-[![My Stack Overflow Stats](https://so-stats.vercel.app/api?user=10389571)](https://github.com/kurt-liao/so-stats)
-
+[![My Stack Overflow Stats](https://stackoverflow-stats-one.vercel.app/api?user=8188682)](https://github.com/samnoon1971/stackoverflow-stats)
 or
 
 ```html
