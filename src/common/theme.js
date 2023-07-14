@@ -7,8 +7,8 @@ const defaultTheme = {
 const lightTheme = {
   bgColor: '#FFF',
   titleColor: '#E7F216',
-  textColor: '#FFF',
-  badgeTextColor: '#000',
+  textColor: '#000',
+  badgeTextColor: '#FFF',
 }
 
 const greeneryTheme = {
