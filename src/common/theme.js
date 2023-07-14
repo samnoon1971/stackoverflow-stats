@@ -4,6 +4,12 @@ const defaultTheme = {
   textColor: '#FFF',
   badgeTextColor: '#000',
 }
+const lightTheme = {
+  bgColor: '#FFF',
+  titleColor: '#E7F216',
+  textColor: '#FFF',
+  badgeTextColor: '#000',
+}
 
 const greeneryTheme = {
   bgColor: '#66C23B',
@@ -33,6 +39,8 @@ const maltTheme = {
   badgeTextColor: '#8D72D6',
 }
 
+
+
 const witchTheme = {
   bgColor: '#426394',
   titleColor: '#8F037A',
@@ -52,6 +60,8 @@ const useTheme = (theme) => {
       return azureTheme
     case 'witch':
       return witchTheme
+    case 'light':
+      return lightTheme
     default:
       return defaultTheme
   }
